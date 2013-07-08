@@ -1,0 +1,7 @@
+Document changes to the goal list here as they are committed. Include information like date, time, committer name, changed goals, and descriptions of why they were changed.
+
+
+---giuocob
+7/8/13 19:30
+
+Initial commit; added goal list.
