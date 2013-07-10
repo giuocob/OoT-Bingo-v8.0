@@ -4,18 +4,19 @@ bingoList[1] = [
   { name: "Bullet Bag (50)", jp: 'デクのタネ袋(50)', types: ["bulletbag"], child: "yes" },
   { name: "Lens of Truth", jp: 'まことのメガネ', types: ["botw"], child: "yes" } ,
   { name: "Defeat a Skull Kid", jp: 'スタルキッド撃破', types: ["skullkid","forest"], child: "no" },
+  { name: "Map & Compass in Dodongo's Cavern", jp: 'ドドンゴの洞窟のマップとコンパス', types: ["dc", "dungeon_item"], child: "yes" },
   { name: "Adult's Wallet", jp: '大人のサイフ', types: ["wallet", "skulltula", "atrade"], child: "yes" },
   { name: "At least 30 Deku Nuts", jp: 'デクの実30個以上', types: ["nuts", "forest"], child: "yes" }
 ];
 bingoList[2] = [
   { name: "Map & Compass in Bottom of the Well", jp: '井戸の底のマップとコンパス', types: ["botw", "dungeon_item"], child: "yes" },
   { name: "Fairy Slingshot", jp: '妖精のパチンコ', types: ["bulletbag", "deku"], child: "yes" },
+  { name: "Zora Tunic", jp: 'ゾーラの服', types: ["sets", "ice"], child: "no" }
 ];
 bingoList[3] = [
   { name: "Map & Compass in Deku Tree", jp: 'デクの樹様の中のマップとコンパス', types: ["deku", "dungeon_item"], child: "yes" },
-  { name: "Map & Compass in Dodongo's Cavern", jp: 'ドドンゴの洞窟のマップとコンパス', types: ["dc", "dungeon_item"], child: "yes" },
-  { name: "Ruto's Letter", jp: 'ルトの手紙', types: ["ruto"], child: "yes" },
   { name: "Goron Tunic", jp: 'ゴロンの服', types: ["sets", "dmc", "fire"], child: "no" }
+  { name: "Ruto's Letter", jp: 'ルトの手紙', types: ["ruto"], child: "yes" },
 ];
 
 bingoList[4] = [
@@ -23,7 +24,7 @@ bingoList[4] = [
   { name: "Bullet Bag (40)", jp: 'デクのタネ袋(40)', types: ["bulletbag", "deku"], child: "yes" },
   { name: "Bomb Bag (30)", jp: 'ボム袋(30)', types: ["bombbag", "dc", "atrade"], child: "yes" },
   { name: "Minuet of Forest", jp: '森のメヌエット', types: ["forest", "songs"], child: "no" },
-  { name: "Zora Tunic", jp: 'ゾーラの服', types: ["sets", "ice"], child: "no" },  
+
   { name: "Bolero of Fire", jp: '炎のボレロ', types: ["dmc", "fire", "songs"], child: "no" }
 ];
 bingoList[5] = [
