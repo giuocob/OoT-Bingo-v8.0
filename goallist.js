@@ -11,20 +11,18 @@ bingoList[1] = [
 bingoList[2] = [
   { name: "Map & Compass in Bottom of the Well", jp: '井戸の底のマップとコンパス', types: ["botw", "dungeon_item"], child: "yes" },
   { name: "Fairy Slingshot", jp: '妖精のパチンコ', types: ["bulletbag", "deku"], child: "yes" },
+  { name: "Bomb Bag (30)", jp: 'ボム袋(30)', types: ["bombbag", "dc", "atrade"], child: "yes" },
+  { name: "Minuet of Forest", jp: '森のメヌエット', types: ["forest", "songs"], child: "no" },
   { name: "Zora Tunic", jp: 'ゾーラの服', types: ["sets", "ice"], child: "no" }
 ];
 bingoList[3] = [
   { name: "Map & Compass in Deku Tree", jp: 'デクの樹様の中のマップとコンパス', types: ["deku", "dungeon_item"], child: "yes" },
-  { name: "Goron Tunic", jp: 'ゴロンの服', types: ["sets", "dmc", "fire"], child: "no" }
-  { name: "Ruto's Letter", jp: 'ルトの手紙', types: ["ruto"], child: "yes" },
-];
-
-bingoList[4] = [
+  { name: "Goron Tunic", jp: 'ゴロンの服', types: ["sets", "dmc", "fire"], child: "no" },
   { name: "Defeat King Dodongo", jp: 'キングドドンゴ撃破', types: ["dc"], child: "yes" },
+  { name: "Ruto's Letter", jp: 'ルトの手紙', types: ["ruto"], child: "yes" }
+];
+bingoList[4] = [
   { name: "Bullet Bag (40)", jp: 'デクのタネ袋(40)', types: ["bulletbag", "deku"], child: "yes" },
-  { name: "Bomb Bag (30)", jp: 'ボム袋(30)', types: ["bombbag", "dc", "atrade"], child: "yes" },
-  { name: "Minuet of Forest", jp: '森のメヌエット', types: ["forest", "songs"], child: "no" },
-
   { name: "Bolero of Fire", jp: '炎のボレロ', types: ["dmc", "fire", "songs"], child: "no" }
 ];
 bingoList[5] = [
