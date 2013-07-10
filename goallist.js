@@ -2,13 +2,12 @@ var bingoList = [];
 bingoList[1] = [
   { name: "Bottled Fairy", jp: 'ビン(妖精)', types: ["bottle"], child: "yes" },
   { name: "Bullet Bag (50)", jp: 'デクのタネ袋(50)', types: ["bulletbag"], child: "yes" },
-  { name: "Black Gauntlets", jp: '黒のグローブ', types: ["strength", "bulletbag", "atrade"], child: "no" },
-  { name: "Lens of Truth", jp: 'まことのメガネ', types: ["botw"], child: "yes" }  
+  { name: "Lens of Truth", jp: 'まことのメガネ', types: ["botw"], child: "yes" }  ,
+  { name: "Adult's Wallet", jp: '大人のサイフ', types: ["wallet", "skulltula", "atrade"], child: "yes" },
   { name: "At least 30 Deku Nuts", jp: 'デクの実30個以上', types: ["nuts", "forest"], child: "yes" }
 ];
 bingoList[2] = [
   { name: "Defeat a Skull Kid", jp: 'スタルキッド撃破', types: ["skullkid","forest"], child: "no" },
-  { name: "Adult's Wallet", jp: '大人のサイフ', types: ["wallet", "skulltula", "atrade"], child: "yes" },
   { name: "Map & Compass in Deku Tree", jp: 'デクの樹様の中のマップとコンパス', types: ["deku", "dungeon_item"], child: "yes" },
 ];
 bingoList[3] = [
