@@ -2,19 +2,19 @@ var bingoList = [];
 bingoList[1] = [
   { name: "Bottled Fairy", jp: 'ビン(妖精)', types: ["bottle"], child: "yes" },
   { name: "Bullet Bag (50)", jp: 'デクのタネ袋(50)', types: ["bulletbag"], child: "yes" },
-  { name: "Lens of Truth", jp: 'まことのメガネ', types: ["botw"], child: "yes" }  ,
+  { name: "Lens of Truth", jp: 'まことのメガネ', types: ["botw"], child: "yes" } ,
+  { name: "Defeat a Skull Kid", jp: 'スタルキッド撃破', types: ["skullkid","forest"], child: "no" },
   { name: "Adult's Wallet", jp: '大人のサイフ', types: ["wallet", "skulltula", "atrade"], child: "yes" },
   { name: "At least 30 Deku Nuts", jp: 'デクの実30個以上', types: ["nuts", "forest"], child: "yes" }
 ];
 bingoList[2] = [
-  { name: "Defeat a Skull Kid", jp: 'スタルキッド撃破', types: ["skullkid","forest"], child: "no" },
-  { name: "Map & Compass in Deku Tree", jp: 'デクの樹様の中のマップとコンパス', types: ["deku", "dungeon_item"], child: "yes" },
+  { name: "Map & Compass in Bottom of the Well", jp: '井戸の底のマップとコンパス', types: ["botw", "dungeon_item"], child: "yes" },
+  { name: "Fairy Slingshot", jp: '妖精のパチンコ', types: ["bulletbag", "deku"], child: "yes" },
 ];
 bingoList[3] = [
-  { name: "Fairy Slingshot", jp: '妖精のパチンコ', types: ["bulletbag", "deku"], child: "yes" },
+  { name: "Map & Compass in Deku Tree", jp: 'デクの樹様の中のマップとコンパス', types: ["deku", "dungeon_item"], child: "yes" },
   { name: "Map & Compass in Dodongo's Cavern", jp: 'ドドンゴの洞窟のマップとコンパス', types: ["dc", "dungeon_item"], child: "yes" },
   { name: "Ruto's Letter", jp: 'ルトの手紙', types: ["ruto"], child: "yes" },
-  { name: "Map & Compass in Bottom of the Well", jp: '井戸の底のマップとコンパス', types: ["botw", "dungeon_item"], child: "yes" },
   { name: "Goron Tunic", jp: 'ゴロンの服', types: ["sets", "dmc", "fire"], child: "no" }
 ];
 
