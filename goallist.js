@@ -54,6 +54,7 @@ bingoList[7] = [
   { name: "4 unused keys in Gerudo Training Grounds", jp: 'ゲルドの修練場の未使用のカギ4つ', types: ["fortress"], child: "yes" },
   { name: "Plant bean in Death Mountain Crater", jp: 'デスマウンテン火口の土にマメを植える', types: ["dmc", "beans"], child: "yes" },
   { name: "Ice Cavern Heart Piece", jp: '氷の洞窟のハートのかけら', types: ["ice","hearts"], child: "yes" },
+  { name: "Water Temple Boss Key", jp: '水の神殿のボス部屋のカギ', types: ["water", "fortress", "dungeon_item"], child: "no" },
   { name: "Both Gerudo's Fortress area Skulltulas", jp: 'ゲルドの砦の黄金のスタルチュラ2匹', types: ["skulltula", "fortress"], child: "no" }, 
   { name: "All 4 Lost Woods area Skulltulas", jp: '迷いの森エリアの黄金のスタルチュラ4匹', types: ["skulltula","forest"], child: "no" },
   { name: "Fill all 4 Bottle Slots", jp: '4つの空きビンスロットを全て埋める', types: ["bottle"], child: "yes" }
@@ -62,6 +63,7 @@ bingoList[8] = [
   { name: "Defeat Phantom Ganon", jp: 'ファントムガノン撃破', types: ["forest"], child: "yes" },
   { name: "Map & Compass in Ice Cavern", jp: '氷の洞窟のマップとコンパス', types: ["ice", "dungeon_item"], child: "no" },
   { name: "All 3 Skulltulas in Ice Cavern", jp: '氷の洞窟の黄金のスタルチュラ3匹', types: ["ice", "skulltula"], child: "yes" },
+  { name: "At least 4 songs", jp: '歌4つ以上', types: ["songs", "atrade","zl"], child: "yes" },
   { name: "Ganon's Castle Boss Key", jp: 'ガノン城のボス部屋のカギ', types: ["ganon", "deku", "dungeon_item"], child: "yes" },
   { name: "37th heart piece (Child Fortress)", jp: '37番目のハートのかけら(子供のゲルドの砦)', types: ["fortress","hearts"], child: "yes" }
 ];
@@ -73,7 +75,6 @@ bingoList[9] = [
   { name: "Serenade of Water", jp: '水のセレナーデ', types: ["atrade", "ice", "songs"], child: "no" },
   { name: "6 unused keys in Gerudo Training Grounds", jp: 'ゲルドの修練場の未使用のカギ6つ', types: ["fortress"], child: "yes" }
 ];
-
 bingoList[10] = [ 
   { name: "Requiem of Spirit", jp: '魂のレクイエム', types: ["spirit", "songs"], child: "yes" },
   { name: "3 Boots", jp: '靴3種類', types: ["sets", "ice"], child: "yes" },
@@ -83,10 +84,7 @@ bingoList[10] = [
   { name: "Prelude of Light", jp: '光のプレリュード', types: ["songs", "atrade", "forest"], child: "no" }
 ];
 bingoList[11] = [
-  { name: "5 Maps", jp: 'マップ5つ', types: ["dungeon_item", "claimcheck"], child: "yes" }, 
-  { name: "At least 4 songs", jp: '歌4つ以上', types: ["songs", "atrade","zl"], child: "yes" },
-  { name: "Blue Potion", jp: '青いクスリ', types: ["atrade"], child: "no" },
-  { name: "Water Temple Boss Key", jp: '水の神殿のボス部屋のカギ', types: ["water", "fortress", "dungeon_item"], child: "no" },
+  { name: "Blue Potion", jp: '青いクスリ', types: ["atrade","zl"], child: "no" },
   { name: "Water Medallion", jp: '水のメダル', types: ["water", "lightarrow", "atrade"], child: "no" },
   { name: "All 3 Skulltulas in Bottom of the Well", jp: '井戸の底の黄金のスタルチュラ3匹', types: ["botw", "skulltula"], child: "yes" }
   ];
@@ -109,7 +107,6 @@ bingoList[13] = [
   { name: "All 8 Kakariko area Skulltulas", jp: 'カカリコ村エリアの黄金のスタルチュラ8匹', types: ["skulltula", "botw"], child: "no" }
 ];
 bingoList[14] = [ 
-    { name: "5 Compasses", jp: 'コンパス5つ', types: ["dungeon_item", "compass"], child: "yes" },
   { name: "Defeat both Flare Dancers", jp: 'フレアダンサー2体撃破', types: ["fire"], child: "no" },
   { name: "Double Magic", jp: '魔力2倍', types: ["dmc", "zl"], child: "yes" },  
   { name: "At least 9 Magic Beans", jp: '魔法のマメ9つ以上', types: ["beans","skulltula","ctrade"], child: "yes" },
