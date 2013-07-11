@@ -20,31 +20,29 @@ bingoList[3] = [
   { name: "Goron Tunic", jp: 'ゴロンの服', types: ["sets", "dmc", "fire"], child: "no" },
   { name: "Defeat King Dodongo", jp: 'キングドドンゴ撃破', types: ["dc"], child: "yes" },
   { name: "At least 3 songs", jp: '歌3つ以上', types: ["songs","zl"], child: "yes" },
+  { name: "Defeat all Lizalfos in Dodongo's Cavern", jp: 'ドドンゴの洞窟のリザルフォス全て撃破', types: ["dc"], child: "yes" },
   { name: "Ruto's Letter", jp: 'ルトの手紙', types: ["ruto"], child: "yes" }
 ];
 bingoList[4] = [
   { name: "Bullet Bag (40)", jp: 'デクのタネ袋(40)', types: ["bulletbag", "deku"], child: "yes" },
   { name: "Quiver (40)", jp: '矢立て(40)', types: ["atrade", "forest", "quiver"], child: "no" },
   { name: "Map & Compass in Shadow Temple", jp: '闇の神殿のマップとコンパス', types: ["shadow", "dungeon_item"], child: "yes" },
+  { name: "Beat Dodongo's Cavern", jp: 'ドドンゴの洞窟クリア', types: ["dc", "fortress"], child: "yes" },
   { name: "Bolero of Fire", jp: '炎のボレロ', types: ["dmc", "fire", "songs"], child: "no" }
 ];
 bingoList[5] = [
+  { name: "Defeat Queen Gohma", jp: 'ゴーマ撃破', types: ["deku","ganon"], child: "yes" },
+  { name: "Milk", jp: 'ロンロン牛乳', types: ["lonlon", "zl"], child: "yes" },
   { name: "Both heart pieces in Death Mountain Crater", jp: 'デスマウンテン火口のハートのかけら２つ', types: ["dmc", "fire", "hearts"], child: "yes" },
+  { name: "All 3 Kokiri Forest area Skulltulas", jp: 'コキリの森エリアの黄金のスタルチュラ３匹', types: ["skulltula"], child: "no" }, 
   { name: "30 Deku Sticks", jp: 'デクの棒30本', types: ["atrade", "ctrade"], child: "yes" }
 ];
 bingoList[6] = [
-  { name: "4 Maps", jp: 'マップ4つ', types: ["dungeon_item", "claimcheck"], child: "yes" },
-  { name: "Cow in House", jp: '牛(リンクの家)', types: ["cow"], child: "no" }  
-  { name: "Defeat Queen Gohma", jp: 'ゴーマ撃破', types: ["deku","ganon"], child: "yes" },
-  { name: "Defeat all Lizalfos in Dodongo's Cavern", jp: 'ドドンゴの洞窟のリザルフォス全て撃破', types: ["dc"], child: "yes" },
-  { name: "Milk", jp: 'ロンロン牛乳', types: ["lonlon", "zl"], child: "yes" },
+  { name: "Cow in House", jp: '牛(リンクの家)', types: ["cow"], child: "no" },
   { name: "Beat the Deku Tree", jp: 'デクの樹様の中クリア', types: ["deku", "ganon"], child: "yes" },
-  { name: "Epona's Song", jp: 'エポナの歌', types: ["lonlon", "songs"], child: "yes" },
-  { name: "All 3 Kokiri Forest area Skulltulas", jp: 'コキリの森エリアの黄金のスタルチュラ３匹', types: ["skulltula"], child: "no" }, 
-  { name: "Beat Dodongo's Cavern", jp: 'ドドンゴの洞窟クリア', types: ["dc", "fortress"], child: "yes" }
+  { name: "Epona's Song", jp: 'エポナの歌', types: ["lonlon", "songs"], child: "yes" }
 ];
 bingoList[7] = [
-  { name: "4 Compasses", jp: 'コンパス4つ', types: ["dungeon_item"], child: "yes"}, 
   { name: "Fill all 4 Bottle Slots", jp: '4つの空きビンスロットを全て埋める', types: ["bottle"], child: "yes" },  
   { name: "Fire Temple Boss Key", jp: '炎の神殿のボス部屋のカギ', types: ["fire", "dungeon_item"], child: "no"},
   { name: "Ice Arrows", jp: '氷の矢', types: ["fortress", "water"], child: "yes" },
