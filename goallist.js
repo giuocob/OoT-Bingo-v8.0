@@ -53,19 +53,18 @@ bingoList[7] = [
   { name: "6 Hearts", jp: 'ハート6つ', types: ["hearts"], child: "yes" },
   { name: "4 unused keys in Gerudo Training Grounds", jp: 'ゲルドの修練場の未使用のカギ4つ', types: ["fortress"], child: "yes" },
   { name: "Plant bean in Death Mountain Crater", jp: 'デスマウンテン火口の土にマメを植える', types: ["dmc", "beans"], child: "yes" },
+  { name: "Ice Cavern Heart Piece", jp: '氷の洞窟のハートのかけら', types: ["ice","hearts"], child: "yes" },
+  { name: "All 4 Lost Woods area Skulltulas", jp: '迷いの森エリアの黄金のスタルチュラ4匹', types: ["skulltula","forest"], child: "no" },
   { name: "Fill all 4 Bottle Slots", jp: '4つの空きビンスロットを全て埋める', types: ["bottle"], child: "yes" }
 ];
 bingoList[8] = [
   { name: "Defeat Phantom Ganon", jp: 'ファントムガノン撃破', types: ["forest"], child: "yes" },
+  { name: "Map & Compass in Ice Cavern", jp: '氷の洞窟のマップとコンパス', types: ["ice", "dungeon_item"], child: "no" },
   { name: "37th heart piece (Child Fortress)", jp: '37番目のハートのかけら(子供のゲルドの砦)', types: ["fortress","hearts"], child: "yes" },
 ];
 bingoList[9] = [
-  { name: "Requiem of Spirit", jp: '魂のレクイエム', types: ["spirit", "songs"], child: "yes" },
   { name: "At least 7 Magic Beans", jp: '魔法のマメ7つ以上', types: ["beans","skulltula","ctrade"], child: "yes" },
-  { name: "All 4 Lost Woods area Skulltulas", jp: '迷いの森エリアの黄金のスタルチュラ4匹', types: ["skulltula","forest"], child: "no" },
   { name: "Beat the Forest Temple", jp: '森の神殿クリア', types: ["forest"], child: "yes" },
-  { name: "Ice Cavern Heart Piece", jp: '氷の洞窟のハートのかけら', types: ["ice","hearts"], child: "yes" },
-  { name: "Map & Compass in Ice Cavern", jp: '氷の洞窟のマップとコンパス', types: ["ice", "dungeon_item"], child: "no" },
   { name: "All 3 Skulltulas in Ice Cavern", jp: '氷の洞窟の黄金のスタルチュラ3匹', types: ["ice", "skulltula"], child: "yes" },
   { name: "Ganon's Castle Boss Key", jp: 'ガノン城のボス部屋のカギ', types: ["ganon", "deku", "dungeon_item"], child: "yes" },
   { name: "Defeat Big Octo", jp: '大オクタ撃破', types: ["jabu"], child: "yes" },
@@ -75,6 +74,7 @@ bingoList[9] = [
 bingoList[10] = [
   { name: "All 4 Skulltulas in Jabu-Jabu", jp: 'ジャブジャブ様のお腹の黄金のスタルチュラ4匹', types: ["jabu", "skulltula"], child: "yes" },
   { name: "Both Gerudo's Fortress area Skulltulas", jp: 'ゲルドの砦の黄金のスタルチュラ2匹', types: ["skulltula", "fortress"], child: "no" },  
+  { name: "Requiem of Spirit", jp: '魂のレクイエム', types: ["spirit", "songs"], child: "yes" },
   { name: "All 4 Skulltulas in Deku Tree", jp: 'デクの樹様の中の黄金のスタルチュラ4匹', types: ["deku", "skulltula"], child: "yes" },   
   { name: "Iron Boots", jp: 'ヘビーブーツ', types: ["ice", "sets"], child: "yes" },
   { name: "Map & Compass in Jabu-Jabu", jp: 'ジャブジャブ様のお腹のマップとコンパス', types: ["jabu", "dungeon_item"], child: "yes" },
