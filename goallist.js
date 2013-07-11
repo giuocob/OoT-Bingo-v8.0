@@ -19,22 +19,22 @@ bingoList[3] = [
   { name: "Map & Compass in Deku Tree", jp: 'デクの樹様の中のマップとコンパス', types: ["deku", "dungeon_item"], child: "yes" },
   { name: "Goron Tunic", jp: 'ゴロンの服', types: ["sets", "dmc", "fire"], child: "no" },
   { name: "Defeat King Dodongo", jp: 'キングドドンゴ撃破', types: ["dc"], child: "yes" },
+  { name: "At least 3 songs", jp: '歌3つ以上', types: ["songs","zl"], child: "yes" },
   { name: "Ruto's Letter", jp: 'ルトの手紙', types: ["ruto"], child: "yes" }
 ];
 bingoList[4] = [
   { name: "Bullet Bag (40)", jp: 'デクのタネ袋(40)', types: ["bulletbag", "deku"], child: "yes" },
+  { name: "Quiver (40)", jp: '矢立て(40)', types: ["atrade", "forest", "quiver"], child: "no" },
+  { name: "Map & Compass in Shadow Temple", jp: '闇の神殿のマップとコンパス', types: ["shadow", "dungeon_item"], child: "yes" },
   { name: "Bolero of Fire", jp: '炎のボレロ', types: ["dmc", "fire", "songs"], child: "no" }
 ];
 bingoList[5] = [
-  { name: "Quiver (40)", jp: '矢立て(40)', types: ["atrade", "forest", "quiver"], child: "no" },
-  { name: "Map & Compass in Shadow Temple", jp: '闇の神殿のマップとコンパス', types: ["shadow", "dungeon_item"], child: "yes" },
   { name: "Both heart pieces in Death Mountain Crater", jp: 'デスマウンテン火口のハートのかけら２つ', types: ["dmc", "fire", "hearts"], child: "yes" },
-  { name: "At least 3 songs", jp: '歌3つ以上', types: ["songs","zl"], child: "yes" },
-  { name: "30 Deku Sticks", jp: 'デクの棒30本', types: ["atrade", "ctrade"], child: "yes" },
-  { name: "Cow in House", jp: '牛(リンクの家)', types: ["cow"], child: "no" }  
+  { name: "30 Deku Sticks", jp: 'デクの棒30本', types: ["atrade", "ctrade"], child: "yes" }
 ];
 bingoList[6] = [
   { name: "4 Maps", jp: 'マップ4つ', types: ["dungeon_item", "claimcheck"], child: "yes" },
+  { name: "Cow in House", jp: '牛(リンクの家)', types: ["cow"], child: "no" }  
   { name: "Defeat Queen Gohma", jp: 'ゴーマ撃破', types: ["deku","ganon"], child: "yes" },
   { name: "Defeat all Lizalfos in Dodongo's Cavern", jp: 'ドドンゴの洞窟のリザルフォス全て撃破', types: ["dc"], child: "yes" },
   { name: "Milk", jp: 'ロンロン牛乳', types: ["lonlon", "zl"], child: "yes" },
