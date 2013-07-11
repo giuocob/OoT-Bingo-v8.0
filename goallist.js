@@ -89,22 +89,20 @@ bingoList[10] = [
 bingoList[11] = [
   { name: "Blue Potion", jp: '青いクスリ', types: ["atrade","zl"], child: "no" },
   { name: "At least 5 songs", jp: '歌5つ以上', types: ["songs", "atrade","zl"], child: "yes" },
-  { name: "Water Medallion", jp: '水のメダル', types: ["water", "lightarrow", "atrade"], child: "no" }
+  { name: "All 8 Kakariko area Skulltulas", jp: 'カカリコ村エリアの黄金のスタルチュラ8匹', types: ["skulltula", "botw"], child: "no" },
+  { name: "Get Bombchu chest in Spirit Temple", jp: '魂の神殿のボムチュウ取得', types: ["spirit", "strength"], child: "yes" },
+  { name: "Defeat Morpha", jp: 'モーファ撃破', types: ["water"], child: "no" }
   ];
 bingoList[12] = [
   { name: "All 4 Skulltulas in Jabu-Jabu", jp: 'ジャブジャブ様のお腹の黄金のスタルチュラ4匹', types: ["jabu", "skulltula"], child: "yes" },
-  { name: "Get Bombchu chest in Spirit Temple", jp: '魂の神殿のボムチュウ取得', types: ["spirit", "strength"], child: "yes" },
+  { name: "Water Medallion", jp: '水のメダル', types: ["water", "lightarrow", "atrade"], child: "no" },
+  { name: "Giant's Wallet", jp: '巨人のサイフ', types: ["wallet", "atrade", "skulltula"], child: "yes" },  
   { name: "Bottled Big Poe", jp: 'ビン(ビッグポウ)', types: ["quiver","forest","fortress"], child: "no" }
 ];
 bingoList[13] = [
-  { name: "Saria's Song", jp: 'サリアの歌', types: ["strength", "masks", "songs", "zl"], child: "yes" },
   { name: "Defeat Barinade", jp: 'バリネード撃破', types: ["jabu"], child: "yes" },
-  { name: "Defeat Morpha", jp: 'モーファ撃破', types: ["water"], child: "no" },
-  { name: "Beat Jabu-Jabu's Belly", jp: 'ジャブジャブ様のお腹クリア', types: ["jabu"], child: "yes" },
   { name: "Keaton Mask", jp: 'キータンのお面', types: ["masks", "zl"], child: "yes" },
-  { name: "Giant's Wallet", jp: '巨人のサイフ', types: ["wallet", "atrade", "skulltula"], child: "yes" },  
-  { name: "Beat the Water Temple", jp: '水の神殿クリア', types: ["water"], child: "no" },
-  { name: "All 8 Kakariko area Skulltulas", jp: 'カカリコ村エリアの黄金のスタルチュラ8匹', types: ["skulltula", "botw"], child: "no" }
+  { name: "Beat the Water Temple", jp: '水の神殿クリア', types: ["water"], child: "no" }
 ];
 bingoList[14] = [ 
   { name: "Defeat both Flare Dancers", jp: 'フレアダンサー2体撃破', types: ["fire"], child: "no" },
@@ -119,7 +117,9 @@ bingoList[14] = [
 bingoList[15] = [
   { name: "Mirror Shield", jp: 'ミラーシールド', types: ["sets", "spirit", "mirror"], child: "yes" },
   { name: "Megaton Hammer", jp: 'メガトンハンマー', types: ["fire"], child: "no" },
+  { name: "Saria's Song", jp: 'サリアの歌', types: ["strength", "masks", "songs", "zl"], child: "yes" },
   { name: "7 Hearts", jp: 'ハート7つ', types: ["hearts"], child: "yes" },
+  { name: "Beat Jabu-Jabu's Belly", jp: 'ジャブジャブ様のお腹クリア', types: ["jabu"], child: "yes" },
  { name: "3 Tunics & 3 Boots", jp: '服3種類と靴3種類', types: ["sets", "ice"], child: "no" },
   { name: "Gerudo's Card", jp: 'ゲルドの会員証', types: ["fortress"], child: "yes" },
    { name: "Map & Compass in Fire Temple", jp: '炎の神殿のマップとコンパス', types: ["fire", "dungeon_item"], child: "no" },
