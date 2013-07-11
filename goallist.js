@@ -81,16 +81,17 @@ bingoList[9] = [
 bingoList[10] = [ 
   { name: "Requiem of Spirit", jp: '魂のレクイエム', types: ["spirit", "songs"], child: "yes" },
   { name: "3 Boots", jp: '靴3種類', types: ["sets", "ice"], child: "yes" },
+  { name: "Blue Potion", jp: '青いクスリ', types: ["atrade","zl"], child: "no" },
   { name: "All 4 Skulltulas in Deku Tree", jp: 'デクの樹様の中の黄金のスタルチュラ4匹', types: ["deku", "skulltula"], child: "yes" },   
   { name: "Map & Compass in Jabu-Jabu", jp: 'ジャブジャブ様のお腹のマップとコンパス', types: ["jabu", "dungeon_item"], child: "yes" },
   { name: "Forest Medallion", jp: '森のメダル', types: ["forest", "lightarrow", "atrade"], child: "yes" },
   { name: "Prelude of Light", jp: '光のプレリュード', types: ["songs", "atrade", "forest"], child: "no" }
 ];
 bingoList[11] = [
-  { name: "Blue Potion", jp: '青いクスリ', types: ["atrade","zl"], child: "no" },
   { name: "At least 5 songs", jp: '歌5つ以上', types: ["songs", "atrade","zl"], child: "yes" },
   { name: "All 8 Kakariko area Skulltulas", jp: 'カカリコ村エリアの黄金のスタルチュラ8匹', types: ["skulltula", "botw"], child: "no" },
   { name: "Get Bombchu chest in Spirit Temple", jp: '魂の神殿のボムチュウ取得', types: ["spirit", "strength"], child: "yes" },
+  { name: "Stone of Agony", jp: 'もだえ石', types: ["skulltula","wallet"], child: "yes" },
   { name: "Defeat Morpha", jp: 'モーファ撃破', types: ["water"], child: "no" }
   ];
 bingoList[12] = [
@@ -162,7 +163,6 @@ bingoList[19] = [
   { name: "Get to the end of Light Trial", jp: '光の結界の最後の部屋に到達', types: ["ganon", "zl", "strength"] , child: "no"},
   { name: "3 Shields & 3 Tunics", jp: '盾3種類と服3種類', types: ["sets", "spirit"], child: "no" },
   { name: "All 5 Skulltulas in Fire Temple", jp: '炎の神殿の黄金のスタルチュラ5匹', types: ["fire", "skulltula"], child: "no" },
-  { name: "Stone of Agony", jp: 'もだえ石', types: ["skulltula","wallet"], child: "yes" },
   { name: "Nayru's Love", jp: 'ネールの愛', types: ["spirit", "zl"], child: "yes" },
   { name: "Spooky Mask", jp: 'こわそなお面', types: ["masks", "strength", "zl","gerudo"], child: "yes" },
   { name: "All 5 Skulltulas in Spirit Temple", jp: '魂の神殿の黄金のスタルチュラ5匹', types: ["spirit", "jabu", "skulltula","atrade"], child: "yes" }
