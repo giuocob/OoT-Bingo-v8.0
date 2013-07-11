@@ -64,6 +64,7 @@ bingoList[8] = [
   { name: "Map & Compass in Ice Cavern", jp: '氷の洞窟のマップとコンパス', types: ["ice", "dungeon_item"], child: "no" },
   { name: "All 3 Skulltulas in Ice Cavern", jp: '氷の洞窟の黄金のスタルチュラ3匹', types: ["ice", "skulltula"], child: "yes" },
   { name: "At least 4 songs", jp: '歌4つ以上', types: ["songs", "atrade","zl"], child: "yes" },
+  { name: "All 5 Skulltulas in Dodongo's Cavern", jp: 'ドドンゴの洞窟の黄金のスタルチュラ5匹', types: ["dc", "skulltula"], child: "yes" },
   { name: "Ganon's Castle Boss Key", jp: 'ガノン城のボス部屋のカギ', types: ["ganon", "deku", "dungeon_item"], child: "yes" },
   { name: "37th heart piece (Child Fortress)", jp: '37番目のハートのかけら(子供のゲルドの砦)', types: ["fortress","hearts"], child: "yes" }
 ];
@@ -72,6 +73,7 @@ bingoList[9] = [
   { name: "Beat the Forest Temple", jp: '森の神殿クリア', types: ["forest"], child: "yes" },
   { name: "Defeat Big Octo", jp: '大オクタ撃破', types: ["jabu"], child: "yes" },
   { name: "Iron Boots", jp: 'ヘビーブーツ', types: ["ice", "sets"], child: "yes" },
+  { name: "3 Swords & 3 Tunics", jp: '剣3種類と服3種類', types: ["sets", "ice","wallet"], child: "no" },
   { name: "Serenade of Water", jp: '水のセレナーデ', types: ["atrade", "ice", "songs"], child: "no" },
   { name: "All 3 Skulltulas in Bottom of the Well", jp: '井戸の底の黄金のスタルチュラ3匹', types: ["botw", "skulltula"], child: "yes" },
   { name: "6 unused keys in Gerudo Training Grounds", jp: 'ゲルドの修練場の未使用のカギ6つ', types: ["fortress"], child: "yes" }
@@ -86,19 +88,17 @@ bingoList[10] = [
 ];
 bingoList[11] = [
   { name: "Blue Potion", jp: '青いクスリ', types: ["atrade","zl"], child: "no" },
+  { name: "At least 5 songs", jp: '歌5つ以上', types: ["songs", "atrade","zl"], child: "yes" },
   { name: "Water Medallion", jp: '水のメダル', types: ["water", "lightarrow", "atrade"], child: "no" }
   ];
 bingoList[12] = [
-  { name: "All 5 Skulltulas in Dodongo's Cavern", jp: 'ドドンゴの洞窟の黄金のスタルチュラ5匹', types: ["dc", "skulltula"], child: "yes" },
-  { name: "At least 5 songs", jp: '歌5つ以上', types: ["songs", "atrade","zl"], child: "yes" },
-{ name: "Defeat Barinade", jp: 'バリネード撃破', types: ["jabu"], child: "yes" },
   { name: "All 4 Skulltulas in Jabu-Jabu", jp: 'ジャブジャブ様のお腹の黄金のスタルチュラ4匹', types: ["jabu", "skulltula"], child: "yes" },
   { name: "Get Bombchu chest in Spirit Temple", jp: '魂の神殿のボムチュウ取得', types: ["spirit", "strength"], child: "yes" },
-  { name: "3 Swords & 3 Tunics", jp: '剣3種類と服3種類', types: ["sets", "ice","wallet"], child: "no" },
   { name: "Bottled Big Poe", jp: 'ビン(ビッグポウ)', types: ["quiver","forest","fortress"], child: "no" }
 ];
 bingoList[13] = [
- { name: "Saria's Song", jp: 'サリアの歌', types: ["strength", "masks", "songs", "zl"], child: "yes" },
+  { name: "Saria's Song", jp: 'サリアの歌', types: ["strength", "masks", "songs", "zl"], child: "yes" },
+  { name: "Defeat Barinade", jp: 'バリネード撃破', types: ["jabu"], child: "yes" },
   { name: "Defeat Morpha", jp: 'モーファ撃破', types: ["water"], child: "no" },
   { name: "Beat Jabu-Jabu's Belly", jp: 'ジャブジャブ様のお腹クリア', types: ["jabu"], child: "yes" },
   { name: "Keaton Mask", jp: 'キータンのお面', types: ["masks", "zl"], child: "yes" },
