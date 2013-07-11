@@ -73,6 +73,7 @@ bingoList[9] = [
   { name: "Defeat Big Octo", jp: '大オクタ撃破', types: ["jabu"], child: "yes" },
   { name: "Iron Boots", jp: 'ヘビーブーツ', types: ["ice", "sets"], child: "yes" },
   { name: "Serenade of Water", jp: '水のセレナーデ', types: ["atrade", "ice", "songs"], child: "no" },
+  { name: "All 3 Skulltulas in Bottom of the Well", jp: '井戸の底の黄金のスタルチュラ3匹', types: ["botw", "skulltula"], child: "yes" },
   { name: "6 unused keys in Gerudo Training Grounds", jp: 'ゲルドの修練場の未使用のカギ6つ', types: ["fortress"], child: "yes" }
 ];
 bingoList[10] = [ 
@@ -85,8 +86,7 @@ bingoList[10] = [
 ];
 bingoList[11] = [
   { name: "Blue Potion", jp: '青いクスリ', types: ["atrade","zl"], child: "no" },
-  { name: "Water Medallion", jp: '水のメダル', types: ["water", "lightarrow", "atrade"], child: "no" },
-  { name: "All 3 Skulltulas in Bottom of the Well", jp: '井戸の底の黄金のスタルチュラ3匹', types: ["botw", "skulltula"], child: "yes" }
+  { name: "Water Medallion", jp: '水のメダル', types: ["water", "lightarrow", "atrade"], child: "no" }
   ];
 bingoList[12] = [
   { name: "All 5 Skulltulas in Dodongo's Cavern", jp: 'ドドンゴの洞窟の黄金のスタルチュラ5匹', types: ["dc", "skulltula"], child: "yes" },
