@@ -21,6 +21,7 @@ bingoList[3] = [
   { name: "Defeat King Dodongo", jp: 'キングドドンゴ撃破', types: ["dc"], child: "yes" },
   { name: "At least 3 songs", jp: '歌3つ以上', types: ["songs","zl"], child: "yes" },
   { name: "Quiver (40)", jp: '矢立て(40)', types: ["atrade", "forest", "quiver"], child: "no" },
+  { name: "Giant's Knife", jp: '巨人のナイフ', types: ["sets","wallet","dmc"], child: "no" },
   { name: "Defeat all Lizalfos in Dodongo's Cavern", jp: 'ドドンゴの洞窟のリザルフォス全て撃破', types: ["dc"], child: "yes" },
   { name: "Ruto's Letter", jp: 'ルトの手紙', types: ["bottle","ruto"], child: "yes" }
 ];
@@ -34,6 +35,7 @@ bingoList[4] = [
 bingoList[5] = [
   { name: "Defeat Queen Gohma", jp: 'ゴーマ撃破', types: ["deku","ganon"], child: "yes" },
   { name: "Milk", jp: 'ロンロン牛乳', types: ["lonlon", "zl","bottle"], child: "yes" },
+  { name: "Blue Fire", jp: '青い炎', types: ["ice", "bottle", "deku", "ganon"], child: "yes" },
   { name: "Defeat a White Wolfos", jp: 'ホワイトウルフォス撃破', types: ["ice", "fortress"], child: "yes" },
   { name: "Both heart pieces in Death Mountain Crater", jp: 'デスマウンテン火口のハートのかけら２つ', types: ["dmc", "fire", "hearts"], child: "yes" },
   { name: "All 3 Kokiri Forest area Skulltulas", jp: 'コキリの森エリアの黄金のスタルチュラ３匹', types: ["skulltula"], child: "no" }, 
@@ -48,24 +50,20 @@ bingoList[6] = [
   { name: "Epona's Song", jp: 'エポナの歌', types: ["lonlon", "songs"], child: "yes" }
 ];
 bingoList[7] = [
+  { name: "6 Hearts", jp: 'ハート6つ', types: ["hearts"], child: "yes" },
+  { name: "4 unused keys in Gerudo Training Grounds", jp: 'ゲルドの修練場の未使用のカギ4つ', types: ["fortress"], child: "yes" },
+  { name: "Plant bean in Death Mountain Crater", jp: 'デスマウンテン火口の土にマメを植える', types: ["dmc", "beans"], child: "yes" },
   { name: "Fill all 4 Bottle Slots", jp: '4つの空きビンスロットを全て埋める', types: ["bottle"], child: "yes" }
 ];
 bingoList[8] = [
   { name: "Defeat Phantom Ganon", jp: 'ファントムガノン撃破', types: ["forest"], child: "yes" },
-  { name: "Map & Compass in Jabu-Jabu", jp: 'ジャブジャブ様のお腹のマップとコンパス', types: ["jabu", "dungeon_item"], child: "yes" },
-  { name: "Blue Fire", jp: '青い炎', types: ["ice", "bottle", "deku", "ganon"], child: "yes" },
-  { name: "5 unused keys in Gerudo Training Grounds", jp: 'ゲルドの修練場の未使用のカギ5つ', types: ["fortress"], child: "yes" },
   { name: "37th heart piece (Child Fortress)", jp: '37番目のハートのかけら(子供のゲルドの砦)', types: ["fortress","hearts"], child: "yes" },
-  { name: "Beat the Forest Temple", jp: '森の神殿クリア', types: ["forest"], child: "yes" },
-  { name: "6 Hearts", jp: 'ハート6つ', types: ["hearts"], child: "yes" },
-  { name: "Giant's Knife", jp: '巨人のナイフ', types: ["sets","wallet","dmc"], child: "no" },
-  { name: "Plant bean in Death Mountain Crater", jp: 'デスマウンテン火口の土にマメを植える', types: ["dmc", "beans"], child: "yes" }
 ];
 bingoList[9] = [
   { name: "Requiem of Spirit", jp: '魂のレクイエム', types: ["spirit", "songs"], child: "yes" },
-  { name: "Forest Medallion", jp: '森のメダル', types: ["forest", "lightarrow", "atrade"], child: "yes" },
   { name: "At least 7 Magic Beans", jp: '魔法のマメ7つ以上', types: ["beans","skulltula","ctrade"], child: "yes" },
   { name: "All 4 Lost Woods area Skulltulas", jp: '迷いの森エリアの黄金のスタルチュラ4匹', types: ["skulltula","forest"], child: "no" },
+  { name: "Beat the Forest Temple", jp: '森の神殿クリア', types: ["forest"], child: "yes" },
   { name: "Ice Cavern Heart Piece", jp: '氷の洞窟のハートのかけら', types: ["ice","hearts"], child: "yes" },
   { name: "Map & Compass in Ice Cavern", jp: '氷の洞窟のマップとコンパス', types: ["ice", "dungeon_item"], child: "no" },
   { name: "All 3 Skulltulas in Ice Cavern", jp: '氷の洞窟の黄金のスタルチュラ3匹', types: ["ice", "skulltula"], child: "yes" },
@@ -78,7 +76,9 @@ bingoList[10] = [
   { name: "All 4 Skulltulas in Jabu-Jabu", jp: 'ジャブジャブ様のお腹の黄金のスタルチュラ4匹', types: ["jabu", "skulltula"], child: "yes" },
   { name: "Both Gerudo's Fortress area Skulltulas", jp: 'ゲルドの砦の黄金のスタルチュラ2匹', types: ["skulltula", "fortress"], child: "no" },  
   { name: "All 4 Skulltulas in Deku Tree", jp: 'デクの樹様の中の黄金のスタルチュラ4匹', types: ["deku", "skulltula"], child: "yes" },   
-{ name: "Iron Boots", jp: 'ヘビーブーツ', types: ["ice", "sets"], child: "yes" },
+  { name: "Iron Boots", jp: 'ヘビーブーツ', types: ["ice", "sets"], child: "yes" },
+  { name: "Map & Compass in Jabu-Jabu", jp: 'ジャブジャブ様のお腹のマップとコンパス', types: ["jabu", "dungeon_item"], child: "yes" },
+  { name: "Forest Medallion", jp: '森のメダル', types: ["forest", "lightarrow", "atrade"], child: "yes" },
 { name: "Serenade of Water", jp: '水のセレナーデ', types: ["atrade", "ice", "songs"], child: "no" },
   { name: "Prelude of Light", jp: '光のプレリュード', types: ["songs", "atrade", "forest"], child: "no" }
 ];
