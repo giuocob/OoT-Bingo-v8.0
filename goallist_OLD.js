@@ -149,7 +149,6 @@ bingoList[16] = [
    { name: "Bombchu Bowling Heart Piece", jp: 'ボムチュウボウリングのハートのかけら', types: ["dc","hearts"], child: "yes" }
 ];
 bingoList[17] = [
-{ name: "Defeat Volvagia", jp: 'ヴァルバジア撃破', types: ["fire", "sets"], child: "no" },
 { name: "Defeat Dark Link", jp: 'ダークリンク撃破', types: ["water","ice"], child: "no" },
   { name: "Both heart pieces in Lost Woods", jp: '迷いの森のハートのかけら２つ', types: ["strength" ,"masks", "songs", "zl","hearts"], child: "yes" },
   { name: "All 4 Lon-Lon Ranch area Skulltulas", jp: 'ロンロン牧場エリアの黄金のスタルチュラ4匹', types: ["jabu", "lonlon", "skulltula"], child: "yes" },
@@ -159,6 +158,7 @@ bingoList[17] = [
 
 ];
 bingoList[18] = [
+  { name: "Defeat Volvagia", jp: 'ヴァルバジア撃破', types: ["fire", "sets"], child: "no" },
   { name: "Beat the Fire Temple", jp: '炎の神殿クリア', types: ["fire", "sets", "forest"], child: "no" },
   { name: "3 Swords & 3 Shields", jp: '剣3種類と盾3種類', types: ["sets", "spirit"], child: "no" },
   { name: "Longshot", jp: 'ロングフック', types: ["water","ice"], child: "no" },
