@@ -90,6 +90,7 @@ bingoList[10] = [
 bingoList[11] = [
   { name: "At least 6 songs", jp: '歌6つ以上', types: ["songs", "atrade","zl"], child: "no" },
   { name: "7 Hearts", jp: 'ハート7つ', types: ["hearts"], child: "yes" },
+  { name: "All 5 Skulltulas in Forest Temple", jp: '森の神殿の黄金のスタルチュラ5匹', types: ["forest","skulltula"], child: "no" },
   { name: "All 8 Kakariko area Skulltulas", jp: 'カカリコ村エリアの黄金のスタルチュラ8匹', types: ["skulltula", "botw"], child: "no" },
   { name: "Get Bombchu chest in Spirit Temple", jp: '魂の神殿のボムチュウ取得', types: ["spirit", "strength"], child: "yes" },
   { name: "Stone of Agony", jp: 'もだえ石', types: ["skulltula","wallet"], child: "yes" },
@@ -110,11 +111,13 @@ bingoList[13] = [
   { name: "3 Tunics & 3 Boots", jp: '服3種類と靴3種類', types: ["sets", "ice"], child: "no" },
   { name: "Mirror Shield", jp: 'ミラーシールド', types: ["sets", "spirit", "mirror"], child: "yes" },
   { name: "Keaton Mask", jp: 'キータンのお面', types: ["masks", "zl"], child: "yes" },
+  { name: "Map & Compass in Forest Temple", jp: '森の神殿のマップとコンパス', types: ["forest", "quiver", "dungeon_item"], child: "no" },
   { name: "Beat the Water Temple", jp: '水の神殿クリア', types: ["water"], child: "no" }
 ];
 bingoList[14] = [ 
  { name: "Double Defense", jp: '防御力2倍', types: ["zl", "ganon"], child: "no" },
  { name: "Map & Compass in Fire Temple", jp: '炎の神殿のマップとコンパス', types: ["fire", "dungeon_item"], child: "no" },
+ { name: "Bombchu Bowling Heart Piece", jp: 'ボムチュウボウリングのハートのかけら', types: ["dc","hearts"], child: "yes" }
  { name: "Forest Temple Boss Key", jp: '森の神殿のボス部屋のカギ', types: ["forest", "dungeon_item", "claimcheck"], child: "no" }
  { name: "8 Hearts", jp: 'ハート8つ', types: ["hearts"], child: "yes" }
 ];
@@ -124,19 +127,13 @@ bingoList[15] = [
   { name: "Farore's Wind", jp: 'フロルの風', types: ["zl", "ice"], child: "yes" }
   { name: "Megaton Hammer", jp: 'メガトンハンマー', types: ["fire"], child: "no" },
   { name: "Saria's Song", jp: 'サリアの歌', types: ["strength", "masks", "songs", "zl"], child: "yes" },
+  { name: "Defeat Amy (Green Poe)", jp: 'エイミー撃破(緑のポウ)ｴ', types: ["forest", "fortress","quiver"], child: "no" },
   { name: "Beat Jabu-Jabu's Belly", jp: 'ジャブジャブ様のお腹クリア', types: ["jabu"], child: "yes" }
 ];
 bingoList[16] = [
   { name: "Defeat both Flare Dancers", jp: 'フレアダンサー2体撃破', types: ["fire"], child: "no" },
  { name: "At least 3 Skulltulas in Water Temple", jp: '水の神殿の黄金のスタルチュラ3匹以上', types: ["water","ice"], child: "no"},
   { name: "500 Rupees", jp: '500ルピー', types: ["wallet", "atrade", "skulltula"], child: "yes" },
-   { name: "All 4 Wasteland/ Colossus area Skulltulas", jp: '幻影の砂漠・巨大邪神像エリアの黄金のスタルチュラ4匹', types: ["skulltula", "spirit"], child: "no" },
-  { name: "Defeat Amy (Green Poe)", jp: 'エイミー撃破(緑のポウ)ｴ', types: ["forest", "fortress","quiver"], child: "no" },
-  { name: "All 5 Skulltulas in Forest Temple", jp: '森の神殿の黄金のスタルチュラ5匹', types: ["forest","skulltula"], child: "no" },
-    { name: "Map & Compass in Forest Temple", jp: '森の神殿のマップとコンパス', types: ["forest", "quiver", "dungeon_item"], child: "no" },
-{ name: "Skull Mask", jp: 'ドクロのお面', types: ["masks", "zl"], child: "yes" },
-   { name: "Treasure Chest Game Heart Piece", jp: '宝箱ゲームのハートのかけら', types: ["zl","hearts"], child: "yes" },
-   { name: "Bombchu Bowling Heart Piece", jp: 'ボムチュウボウリングのハートのかけら', types: ["dc","hearts"], child: "yes" }
 ];
 bingoList[17] = [
 { name: "Defeat Volvagia", jp: 'ヴァルバジア撃破', types: ["fire", "sets"], child: "no" },
@@ -153,6 +150,7 @@ bingoList[18] = [
   { name: "3 Swords & 3 Shields", jp: '剣3種類と盾3種類', types: ["sets", "spirit"], child: "no" },
   { name: "Longshot", jp: 'ロングフック', types: ["water","ice"], child: "no" },
   { name: "Din's Fire", jp: 'ディンの炎', types: ["zl"], child: "yes" },
+  { name: "All 4 Wasteland/ Colossus area Skulltulas", jp: '幻影の砂漠・巨大邪神像エリアの黄金のスタルチュラ4匹', types: ["skulltula", "spirit"], child: "no" },
  { name: "3 Swords & 3 Boots", jp: '剣3種類と靴3種類', types: ["sets", "ice"], child: "no" },
   { name: "Get to the end of Fire Trial", jp: '炎の結界の最後の部屋に到達', types: ["ganon", "strength",], child: "no" },
   { name: "Goron Bracelet", jp: 'ゴロンの腕輪', types: ["strength", "zl"], child: "yes" },
