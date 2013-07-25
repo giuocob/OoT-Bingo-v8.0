@@ -93,7 +93,8 @@ bingoList[11] = [
   { name: "7 Hearts", jp: 'ハート7つ', types: ["hearts"], child: "yes" },
   { name: "All 5 Skulltulas in Forest Temple", jp: '森の神殿の黄金のスタルチュラ5匹', types: ["forest","skulltula"], child: "no" },
   { name: "All 8 Kakariko area Skulltulas", jp: 'カカリコ村エリアの黄金のスタルチュラ8匹', types: ["skulltula", "botw"], child: "no" },
-  { name: "Beat the Water Temple", jp: '水の神殿クリア', types: ["water"], child: "no" }
+  { name: "Beat the Water Temple", jp: '水の神殿クリア', types: ["water"], child: "no" },
+  { name: "Golden Gauntlets", jp: '金のグローブ', types: ["strength", "ganon", "deku"], child: "yes" }
   { name: "Get Bombchu chest in Spirit Temple", jp: '魂の神殿のボムチュウ取得', types: ["spirit", "strength"], child: "yes" },
   { name: "Stone of Agony", jp: 'もだえ石', types: ["skulltula","wallet"], child: "yes" },
   ];
@@ -110,7 +111,7 @@ bingoList[12] = [
 bingoList[13] = [
   { name: "Double Magic", jp: '魔力2倍', types: ["dmc", "zl"], child: "yes" },
   { name: "Defeat Barinade", jp: 'バリネード撃破', types: ["jabu"], child: "yes" },
-  { name: "All 4 Gerudo Valley area Skulltulas", jp: 'ゲルドの谷エリアの黄金のスタルチュラ4匹', types: ["skulltula", "gerudo","jabu"], child: "no" },
+  { name: "All 4 Gerudo Valley area Skulltulas", jp: 'ゲルドの谷エリアの黄金のスタルチュラ4匹', types: ["skulltula", "fortress","jabu"], child: "no" },
   { name: "Longshot", jp: 'ロングフック', types: ["water","ice"], child: "no" },
   { name: "3 Tunics & 3 Boots", jp: '服3種類と靴3種類', types: ["sets", "ice"], child: "no" },
   { name: "Mirror Shield", jp: 'ミラーシールド', types: ["sets", "spirit", "mirror"], child: "yes" },
@@ -128,42 +129,40 @@ bingoList[14] = [
 bingoList[15] = [
   { name: "Map & Compass in Water Temple", jp: '水の神殿のマップとコンパス', types: ["water", "ice", "dungeon_item"], child: "no" },
   { name: "At least 9 Magic Beans", jp: '魔法のマメ9つ以上', types: ["beans","skulltula","ctrade"], child: "yes" },
-  { name: "Farore's Wind", jp: 'フロルの風', types: ["zl", "ice"], child: "yes" }
+  { name: "Farore's Wind", jp: 'フロルの風', types: ["zl", "ice"], child: "yes" },
   { name: "Megaton Hammer", jp: 'メガトンハンマー', types: ["fire"], child: "no" },
+  { name: "Get to the end of Fire Trial", jp: '炎の結界の最後の部屋に到達', types: ["ganon", "strength","fire"], child: "no" },
   { name: "Saria's Song", jp: 'サリアの歌', types: ["strength", "masks", "songs", "zl"], child: "yes" },
   { name: "Defeat Amy (Green Poe)", jp: 'エイミー撃破(緑のポウ)ｴ', types: ["forest", "fortress","quiver"], child: "no" },
   { name: "Beat Jabu-Jabu's Belly", jp: 'ジャブジャブ様のお腹クリア', types: ["jabu"], child: "yes" }
 ];
 bingoList[16] = [
   { name: "Defeat both Flare Dancers", jp: 'フレアダンサー2体撃破', types: ["fire"], child: "no" },
- { name: "At least 3 Skulltulas in Water Temple", jp: '水の神殿の黄金のスタルチュラ3匹以上', types: ["water","ice"], child: "no"},
+  { name: "3 Swords & 3 Boots", jp: '剣3種類と靴3種類', types: ["sets", "ice"], child: "no" },
+  { name: "At least 3 Skulltulas in Water Temple", jp: '水の神殿の黄金のスタルチュラ3匹以上', types: ["water","ice"], child: "no"},
   { name: "3 Boss Keys", jp: 'ボス部屋のカギ3つ', types: ["dungeon_item", "claimcheck"], child: "no" },
   { name: "500 Rupees", jp: '500ルピー', types: ["wallet", "atrade", "skulltula"], child: "yes" },
 ];
 bingoList[17] = [
-  { name: "Shadow Temple Boss Key", jp: '闇の神殿のボス部屋のカギ', types: ["shadow", "zl", "dungeon_item"], child: "no"}
-
+  { name: "Shadow Temple Boss Key", jp: '闇の神殿のボス部屋のカギ', types: ["shadow", "zl", "dungeon_item"], child: "no"},
+  { name: "3 Swords & 3 Shields", jp: '剣3種類と盾3種類', types: ["sets", "spirit"], child: "no" }
 ];
 bingoList[18] = [
-  { name: "Beat the Fire Temple", jp: '炎の神殿クリア', types: ["fire", "sets", "forest"], child: "no" },
   { name: "Defeat Volvagia", jp: 'ヴァルバジア撃破', types: ["fire", "sets"], child: "no" },
-  { name: "3 Swords & 3 Shields", jp: '剣3種類と盾3種類', types: ["sets", "spirit"], child: "no" },
   { name: "Din's Fire", jp: 'ディンの炎', types: ["zl"], child: "yes" },
   { name: "All 4 Wasteland/ Colossus area Skulltulas", jp: '幻影の砂漠・巨大邪神像エリアの黄金のスタルチュラ4匹', types: ["skulltula", "spirit"], child: "no" },
- { name: "3 Swords & 3 Boots", jp: '剣3種類と靴3種類', types: ["sets", "ice"], child: "no" },
-  { name: "Get to the end of Fire Trial", jp: '炎の結界の最後の部屋に到達', types: ["ganon", "strength",], child: "no" },
-  { name: "Goron Bracelet", jp: 'ゴロンの腕輪', types: ["strength", "zl"], child: "yes" },
-{ name: "Golden Gauntlets", jp: '金のグローブ', types: ["strength", "ganon", "deku"], child: "yes" }
+  { name: "Goron Bracelet", jp: 'ゴロンの腕輪', types: ["strength", "zl"], child: "yes" }
 
 ];
 bingoList[19] = [
   { name: "Get to the end of Light Trial", jp: '光の結界の最後の部屋に到達', types: ["ganon", "zl", "strength"] , child: "no"},
   { name: "3 Shields & 3 Tunics", jp: '盾3種類と服3種類', types: ["sets", "spirit"], child: "no" },
   { name: "9 Hearts", jp: 'ハート9つ', types: ["hearts"], child: "yes" },
+  { name: "Beat the Fire Temple", jp: '炎の神殿クリア', types: ["fire", "sets", "forest"], child: "no" },
   { name: "All 5 Skulltulas in Fire Temple", jp: '炎の神殿の黄金のスタルチュラ5匹', types: ["fire", "skulltula"], child: "no" },
   { name: "Nayru's Love", jp: 'ネールの愛', types: ["spirit", "zl"], child: "yes" },
   { name: "Both heart pieces in Lost Woods", jp: '迷いの森のハートのかけら２つ', types: ["strength" ,"masks", "songs", "zl","hearts"], child: "yes" },
-  { name: "Spooky Mask", jp: 'こわそなお面', types: ["masks", "strength", "zl","gerudo"], child: "yes" },
+  { name: "Spooky Mask", jp: 'こわそなお面', types: ["masks", "strength", "zl","fortress"], child: "yes" },
   { name: "All 5 Skulltulas in Spirit Temple", jp: '魂の神殿の黄金のスタルチュラ5匹', types: ["spirit", "jabu", "skulltula","atrade"], child: "yes" }
 ];
 bingoList[20] = [
