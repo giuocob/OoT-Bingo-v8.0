@@ -145,6 +145,7 @@ bingoList[16] = [
 ];
 bingoList[17] = [
   { name: "Shadow Temple Boss Key", jp: '闇の神殿のボス部屋のカギ', types: ["shadow", "zl", "dungeon_item"], child: "no"},
+  { name: "All 5 Skulltulas in Fire Temple", jp: '炎の神殿の黄金のスタルチュラ5匹', types: ["fire", "skulltula"], child: "no" },
   { name: "3 Swords & 3 Shields", jp: '剣3種類と盾3種類', types: ["sets", "spirit"], child: "no" }
 ];
 bingoList[18] = [
@@ -159,11 +160,9 @@ bingoList[19] = [
   { name: "3 Shields & 3 Tunics", jp: '盾3種類と服3種類', types: ["sets", "spirit"], child: "no" },
   { name: "9 Hearts", jp: 'ハート9つ', types: ["hearts"], child: "yes" },
   { name: "Beat the Fire Temple", jp: '炎の神殿クリア', types: ["fire", "sets", "forest"], child: "no" },
-  { name: "All 5 Skulltulas in Fire Temple", jp: '炎の神殿の黄金のスタルチュラ5匹', types: ["fire", "skulltula"], child: "no" },
   { name: "Nayru's Love", jp: 'ネールの愛', types: ["spirit", "zl"], child: "yes" },
   { name: "Both heart pieces in Lost Woods", jp: '迷いの森のハートのかけら２つ', types: ["strength" ,"masks", "songs", "zl","hearts"], child: "yes" },
-  { name: "Spooky Mask", jp: 'こわそなお面', types: ["masks", "strength", "zl","fortress"], child: "yes" },
-  { name: "All 5 Skulltulas in Spirit Temple", jp: '魂の神殿の黄金のスタルチュラ5匹', types: ["spirit", "jabu", "skulltula","atrade"], child: "yes" }
+  { name: "All 5 Skulltulas in Spirit Temple", jp: '魂の神殿の黄金のスタルチュラ5匹', types: ["spirit", "skulltula","atrade","songs"], child: "yes" }
 ];
 bingoList[20] = [
   { name: "Bronze Gauntlets", jp: '銅のグローブ', types: ["strength", "bulletbag", "ganon", "atrade"], child: "no" },
@@ -178,6 +177,7 @@ bingoList[21] = [
   { name: "Free all 9 gorons in Fire Temple", jp: '炎の神殿で９人のゴロンを全員救う', types: ["fire"], child: "no"},
     { name: "Defeat Bongo-Bongo", jp: 'ボンゴボンゴ撃破', types: ["shadow", "zl"], child: "no" },
   { name: "6 Compasses", jp: 'コンパス6つ', types: ["dungeon_item"], child: "yes" },
+  { name: "Spooky Mask", jp: 'こわそなお面', types: ["masks", "strength","zl","fortress"], child: "yes" },
   { name: "8 unused keys in Gerudo Training Grounds", jp: 'ゲルドの修練場の未使用のカギ8つ', types: ["fortress","water"], child: "no" },
   { name: "Defeat Nabooru-Knuckle", jp: 'アイアンナック(ナボール)撃破', types: ["spirit"], child: "no" },
 { name: "Get to the end of Water Trial", jp: '水の結界の最後の部屋に到達', types: ["ganon", "fire", "lightarrow"] },
