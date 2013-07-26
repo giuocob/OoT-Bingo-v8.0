@@ -11,6 +11,7 @@ bingoList[1] = [
 bingoList[2] = [
   { name: "Map & Compass in Bottom of the Well", jp: '井戸の底のマップとコンパス', types: ["botw", "dungeon_item"], child: "yes" },
   { name: "Fairy Slingshot", jp: '妖精のパチンコ', types: ["bulletbag", "deku"], child: "yes" },
+  { name: "Giant's Knife", jp: '巨人のナイフ', types: ["sets","wallet","dmc"], child: "no" },
   { name: "Bomb Bag (30)", jp: 'ボム袋(30)', types: ["bombbag", "dc", "atrade"], child: "yes" },
   { name: "Minuet of Forest", jp: '森のメヌエット', types: ["forest", "songs"], child: "no" },
   { name: "Zora Tunic", jp: 'ゾーラの服', types: ["sets", "ice"], child: "no" }
@@ -21,12 +22,12 @@ bingoList[3] = [
   { name: "Defeat King Dodongo", jp: 'キングドドンゴ撃破', types: ["dc"], child: "yes" },
   { name: "At least 3 songs", jp: '歌3つ以上', types: ["songs","zl"], child: "yes" },
   { name: "Quiver (40)", jp: '矢立て(40)', types: ["atrade", "forest", "quiver"], child: "no" },
-  { name: "Giant's Knife", jp: '巨人のナイフ', types: ["sets","wallet","dmc"], child: "no" },
   { name: "Defeat all Lizalfos in Dodongo's Cavern", jp: 'ドドンゴの洞窟のリザルフォス全て撃破', types: ["dc"], child: "yes" },
   { name: "Ruto's Letter", jp: 'ルトの手紙', types: ["bottle","ruto"], child: "yes" }
 ];
 bingoList[4] = [
   { name: "Bullet Bag (40)", jp: 'デクのタネ袋(40)', types: ["bulletbag", "deku"], child: "yes" },
+  { name: "Both heart pieces in Death Mountain Crater", jp: 'デスマウンテン火口のハートのかけら２つ', types: ["dmc", "fire", "hearts"], child: "yes" },
   { name: "Ice Arrows", jp: '氷の矢', types: ["fortress","quiver","water"], child: "yes" },
   { name: "Map & Compass in Shadow Temple", jp: '闇の神殿のマップとコンパス', types: ["shadow", "dungeon_item"], child: "yes" },
   { name: "Beat Dodongo's Cavern", jp: 'ドドンゴの洞窟クリア', types: ["dc", "fortress"], child: "yes" },
@@ -37,7 +38,6 @@ bingoList[5] = [
   { name: "Milk", jp: 'ロンロン牛乳', types: ["lonlon", "zl","bottle"], child: "yes" },
   { name: "Blue Fire", jp: '青い炎', types: ["ice", "bottle", "deku", "ganon"], child: "yes" },
   { name: "Defeat a White Wolfos", jp: 'ホワイトウルフォス撃破', types: ["ice", "fortress"], child: "yes" },
-  { name: "Both heart pieces in Death Mountain Crater", jp: 'デスマウンテン火口のハートのかけら２つ', types: ["dmc", "fire", "hearts"], child: "yes" },
   { name: "All 3 Kokiri Forest area Skulltulas", jp: 'コキリの森エリアの黄金のスタルチュラ３匹', types: ["skulltula"], child: "no" }, 
   { name: "30 Deku Sticks", jp: 'デクの棒30本', types: ["atrade", "ctrade"], child: "yes" }
 ];
@@ -74,7 +74,6 @@ bingoList[9] = [
   { name: "Defeat Big Octo", jp: '大オクタ撃破', types: ["jabu"], child: "yes" },
   { name: "Iron Boots", jp: 'ヘビーブーツ', types: ["ice", "sets"], child: "yes" },
   { name: "3 Swords & 3 Tunics", jp: '剣3種類と服3種類', types: ["sets", "ice","wallet"], child: "no" },
-  { name: "Serenade of Water", jp: '水のセレナーデ', types: ["atrade", "ice", "songs"], child: "no" },
   { name: "All 3 Skulltulas in Bottom of the Well", jp: '井戸の底の黄金のスタルチュラ3匹', types: ["botw", "skulltula"], child: "yes" },
   { name: "6 unused keys in Gerudo Training Grounds", jp: 'ゲルドの修練場の未使用のカギ6つ', types: ["fortress"], child: "yes" }
 ];
@@ -85,8 +84,7 @@ bingoList[10] = [
   { name: "All 4 Skulltulas in Deku Tree", jp: 'デクの樹様の中の黄金のスタルチュラ4匹', types: ["deku", "skulltula"], child: "yes" },   
   { name: "Map & Compass in Jabu-Jabu", jp: 'ジャブジャブ様のお腹のマップとコンパス', types: ["jabu", "dungeon_item"], child: "yes" },
   { name: "Forest Medallion", jp: '森のメダル', types: ["forest", "lightarrow", "atrade"], child: "yes" },
-  { name: "Defeat Morpha", jp: 'モーファ撃破', types: ["water"], child: "no" },
-  { name: "Prelude of Light", jp: '光のプレリュード', types: ["songs", "atrade", "forest"], child: "no" }
+  { name: "Defeat Morpha", jp: 'モーファ撃破', types: ["water"], child: "no" }
 ];
 bingoList[11] = [
   { name: "At least 6 songs", jp: '歌6つ以上', types: ["songs", "atrade","zl"], child: "no" },
@@ -160,24 +158,24 @@ bingoList[18] = [
   { name: "Frog's Heart Piece", jp: 'カエルのハートのかけら(嵐の歌)', types: ["songs", "forest","hearts"], child: "no" }, 
   { name: "6 Compasses", jp: 'コンパス6つ', types: ["dungeon_item","ice"], child: "yes" },
   { name: "Fire Arrow", jp: '炎の矢', types: ["water", "firearrow", "quiver"] },
-  { name: "Defeat Bongo-Bongo", jp: 'ボンゴボンゴ撃破', types: ["shadow", "zl","deku"], child: "no" },
-  { name: "All 4 Wasteland/ Colossus area Skulltulas", jp: '幻影の砂漠・巨大邪神像エリアの黄金のスタルチュラ4匹', types: ["skulltula", "spirit"], child: "no" },
-  { name: "Goron Bracelet", jp: 'ゴロンの腕輪', types: ["strength", "zl"], child: "yes" },
+  { name: "Defeat Bongo-Bongo", jp: 'ボンゴボンゴ撃破', types: ["shadow", "zl","deku"], child: "no" }
   { name: "All 8 Death Mountain area Skulltulas", jp: 'デスマウンテンエリアの黄金のスタルチュラ8匹', types: ["skulltula", "dmc"], child: "no" }
 
 ];
 bingoList[19] = [
   { name: "Get to the end of Light Trial", jp: '光の結界の最後の部屋に到達', types: ["ganon", "zl", "strength"] , child: "no"},
+  { name: "All 4 Wasteland/ Colossus area Skulltulas", jp: '幻影の砂漠・巨大邪神像エリアの黄金のスタルチュラ4匹', types: ["skulltula", "spirit"], child: "no" },
   { name: "3 Shields & 3 Tunics", jp: '盾3種類と服3種類', types: ["sets", "spirit"], child: "no" },
   { name: "Beat the Fire Temple", jp: '炎の神殿クリア', types: ["fire", "sets", "forest"], child: "no" },
   { name: "Nayru's Love", jp: 'ネールの愛', types: ["spirit", "zl"], child: "yes" },
-  { name: "Both heart pieces in Lost Woods", jp: '迷いの森のハートのかけら２つ', types: ["strength" ,"masks", "songs", "zl","hearts"], child: "yes" },
+  { name: "Goron Bracelet", jp: 'ゴロンの腕輪', types: ["strength", "zl"], child: "yes" },
   { name: "All 5 Skulltulas in Spirit Temple", jp: '魂の神殿の黄金のスタルチュラ5匹', types: ["spirit", "skulltula","atrade","songs"], child: "yes" }
 ];
 bingoList[20] = [
   { name: "Free all 9 gorons in Fire Temple", jp: '炎の神殿で９人のゴロンを全員救う', types: ["fire"], child: "no"},
   { name: "9 Hearts", jp: 'ハート9つ', types: ["hearts"], child: "yes" },
   { name: "Light Arrows", jp: '光の矢', types: ["lightarrow", "atrade"], child: "no" },
+  { name: "Both heart pieces in Lost Woods", jp: '迷いの森のハートのかけら２つ', types: ["strength" ,"masks", "songs", "zl","hearts"], child: "yes" },
   { name: "All 5 Lake Hylia Skulltulas", jp: 'ハイリア湖畔エリアの黄金のスタルチュラ5匹', types: ["ice", "skulltula", "water"], child: "no" }
   { name: "At least 9 songs", jp: '歌9つ以上', types: ["songs", "atrade", "zl"], child: "no" },
   { name: "Beat the Shadow Temple", jp: '闇の神殿クリア', types: ["shadow", "zl","deku"], child: "no" }
