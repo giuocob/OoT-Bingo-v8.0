@@ -148,6 +148,7 @@ bingoList[17] = [
   { name: "Shadow Temple Boss Key", jp: '闇の神殿のボス部屋のカギ', types: ["shadow", "zl", "dungeon_item"], child: "no"},
   { name: "All 5 Skulltulas in Fire Temple", jp: '炎の神殿の黄金のスタルチュラ5匹', types: ["fire", "skulltula"], child: "no" },
   { name: "6 Maps", jp: 'マップ6つ', types: ["dungeon_item", "claimcheck","ice"], child: "yes" },
+  { name: "All 8 Zora's Domain area Skulltulas", jp: 'ゾーラの里エリアの黄金のスタルチュラ8匹', types: ["jabu", "strength", "ice"], child: "no" },
   { name: "Blue Gauntlets", jp: '青のグローブ', types: ["spirit","strength", "bulletbag", "atrade"], child: "no" },
   { name: "Defeat Nabooru-Knuckle", jp: 'アイアンナック(ナボール)撃破', types: ["spirit"], child: "no" },
   { name: "Both Hyrule Field area Skulltulas", jp: 'ハイラル平原エリアの黄金ノスタルチュラ2匹', types: ["skulltula", "zl","water"], child: "yes" },
@@ -158,7 +159,7 @@ bingoList[18] = [
   { name: "Din's Fire", jp: 'ディンの炎', types: ["zl"], child: "yes" },
   { name: "Frog's Heart Piece", jp: 'カエルのハートのかけら(嵐の歌)', types: ["songs", "forest","hearts"], child: "no" }, 
   { name: "6 Compasses", jp: 'コンパス6つ', types: ["dungeon_item","ice"], child: "yes" },
-  { name: "Fire Arrow", jp: '炎の矢', types: ["water", "fire", "quiver"] },
+  { name: "Fire Arrow", jp: '炎の矢', types: ["water", "firearrow", "quiver"] },
   { name: "Defeat Bongo-Bongo", jp: 'ボンゴボンゴ撃破', types: ["shadow", "zl","deku"], child: "no" },
   { name: "All 4 Wasteland/ Colossus area Skulltulas", jp: '幻影の砂漠・巨大邪神像エリアの黄金のスタルチュラ4匹', types: ["skulltula", "spirit"], child: "no" },
   { name: "Goron Bracelet", jp: 'ゴロンの腕輪', types: ["strength", "zl"], child: "yes" },
@@ -188,29 +189,28 @@ bingoList[21] = [
 ];
 bingoList[22] = [ 
   { name: "Quiver (50)", jp: '矢立て(50)', types: ["quiver", "fortress"], child: "no" },
+  { name: "3 Shields & 3 Boots", jp: '盾3種類と靴3種類', types: ["sets", "spirit","ice"], child: "yes" },
+  { name: "7 Maps", jp: 'マップ7つ', types: ["dungeon_item", "claimcheck","ice"], child: "yes" },
+  { name: "Map & Compass in Spirit Temple", jp: '魂の神殿のマップとコンパス', types: ["spirit", "zl", "dungeon_item"], child: "yes" },
   { name: "Spirit Temple Boss Key", jp: '魂の神殿のボス部屋のカギ', types: ["spirit", "lightarrow", "zl", "dungeon_item"], child: "no" }
 ];
 bingoList[23] = [
-   { name: "All 5 Skulltulas in Shadow Temple", jp: '闇の神殿の黄金のスタルチュラ5匹', types: ["shadow", "skulltula", "zl"], child: "no" },
-  { name: "Map & Compass in Spirit Temple", jp: '魂の神殿のマップとコンパス', types: ["spirit", "zl", "dungeon_item"], child: "yes" },
-  { name: "3 Shields & 3 Boots", jp: '盾3種類と靴3種類', types: ["sets", "spirit","ice"], child: "yes" },
   { name: "Green Gauntlets", jp: '緑のグローブ', types: ["strength", "bulletbag", "zl", "atrade"], child: "no" }, 
-  { name: "All 8 Zora's Domain area Skulltulas", jp: 'ゾーラの里エリアの黄金のスタルチュラ8匹', types: ["jabu", "strength", "ice"], child: "no" },
-  { name: "7 Maps", jp: 'マップ7つ', types: ["dungeon_item", "claimcheck","ice"], child: "yes" },
-  { name: "Get to the end of the Forest Trial", jp: '森の結界の最後の部屋に到達', types: ["ganon", "zl"], child: "yes" }
+  { name: "7 Compasses", jp: 'コンパス7つ', types: ["dungeon_item","ice"], child: "no" }
 ];
 bingoList[24] = [
   { name: "Defeat Twinrova", jp: 'ツインローバ撃破', types: ["spirit"], child: "no" },
-  { name: "Get to the end of Shadow Trial", jp: '闇の結界の最後の部屋に到達', types: ["ganon", "fire"], child: "no" }
+  { name: "All 5 Skulltulas in Shadow Temple", jp: '闇の神殿の黄金のスタルチュラ5匹', types: ["shadow", "skulltula", "zl"], child: "no" },
+  { name: "Get to the end of Shadow Trial", jp: '闇の結界の最後の部屋に到達', types: ["ganon", "fire"], child: "no" },
   { name: "At least 9 songs", jp: '歌9つ以上', types: ["songs", "atrade", "zl"], child: "no" },
   { name: "All 5 Lake Hylia Skulltulas", jp: 'ハイリア湖畔エリアの黄金のスタルチュラ5匹', types: ["ice", "skulltula", "water"], child: "no" }
 ];
 bingoList[25] = [
   { name: "Beat the Spirit Temple", jp: '魂の神殿クリア', types: ["spirit"], child: "no" },
   { name: "Bunny Hood", jp: 'ウサギずきん', types: ["masks", "strength", "zl", "beans"], child: "yes" },
+  { name: "Get to the end of the Forest Trial", jp: '森の結界の最後の部屋に到達', types: ["ganon", "zl","firearrow"], child: "yes" }
   { name: "All 5 Skulltulas in Water Temple", jp: '水の神殿の黄金のスタルチュラ5匹', types: ["water"], child: "no" },
   { name: "Get to the end of Spirit Trial", jp: '魂の結界の最後の部屋に到達', types: ["ganon", "spirit", "quiver"], child: "no" },  
-  { name: "7 Compasses", jp: 'コンパス7つ', types: ["dungeon_item","ice"], child: "no" },
 ];
 
 $(function() { srl.ootbingo(bingoList, 5); });
